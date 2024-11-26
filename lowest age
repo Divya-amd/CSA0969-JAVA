@@ -1,0 +1,17 @@
+public class LowestAge {
+    public static void main(String[] args) {
+        int age[] = {20, 22, 18, 35, 48, 26, 87, 70};
+        int minAge = age[0]; 
+        for (int i = 1; i < age.length; i++) { 
+            if (age[i] < minAge) { 
+                minAge = age[i]; 
+            }
+        }
+        System.out.println("The lowest age is: " + minAge);
+    }
+}
+
+
+
+
+
